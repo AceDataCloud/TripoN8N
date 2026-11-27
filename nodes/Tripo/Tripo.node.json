@@ -1,0 +1,26 @@
+{
+  "node": "@acedatacloud/n8n-nodes-tripo.tripo",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Marketing & Content"
+  ],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/AceDataCloud/TripoN8N#use-the-node"
+      }
+    ],
+    "credentialDocumentation": [
+      {
+        "url": "https://github.com/AceDataCloud/TripoN8N#credentials"
+      }
+    ]
+  },
+  "alias": [
+    "Tripo",
+    "3D generation",
+    "rigging",
+    "retargeting"
+  ]
+}
