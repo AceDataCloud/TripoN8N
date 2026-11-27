@@ -1,0 +1,48 @@
+import type {
+  IAuthenticateGeneric,
+  ICredentialTestRequest,
+  ICredentialType,
+  INodeProperties,
+} from "n8n-workflow";
+
+export class AceDataTripoApi implements ICredentialType {
+  name = "aceDataTripoApi";
+  displayName = "Tripo 3D by Ace Data Cloud API";
+  documentationUrl = "https://github.com/AceDataCloud/TripoN8N#credentials";
+  icon = "file:../nodes/Tripo/icon.png" as const;
+  properties: INodeProperties[] = [
+    {
+      displayName: "API Token",
+      name: "apiToken",
+      type: "string",
+      typeOptions: { password: true },
+      default: "",
+      required: true,
+      description: "Your AceDataCloud application API token",
+    },
+    {
+      displayName:
+        'Create or copy an application API key in <a href="https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen" target="_blank">Ace Data Cloud Applications</a>. Paste only the token into API Token; do not add Bearer.',
+      name: "keySetup",
+      type: "notice",
+      default: "",
+    },
+  ];
+  authenticate: IAuthenticateGeneric = {
+    type: "generic",
+    properties: {
+      headers: { Authorization: "=Bearer {{$credentials.apiToken}}" },
+    },
+  };
+  test: ICredentialTestRequest = {
+    request: {
+      baseURL: "https://api.acedata.cloud",
+      url: "/tripo/tasks",
+      method: "POST",
+      body: {
+        action: "retrieve_batch",
+        ids: ["00000000-0000-4000-8000-000000000000"],
+      },
+    },
+  };
+}
