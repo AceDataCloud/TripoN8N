@@ -8,7 +8,7 @@ In self-hosted n8n, open **Settings → Community nodes → Install**, enter `@a
 
 ## Credentials
 
-Sign in to [Applications](https://platform.acedata.cloud/console/applications) and open **General Application**. If it is missing, select **Initialize General Application**. Click the copy button to the right of **API KEY**.
+Sign in to [Applications](https://platform.acedata.cloud/console/applications) and open **General Application**. Click the copy button to the right of **API KEY**.
 
 ![Copy the API key from General Application](https://cdn.acedata.cloud/dvc3cg.jpg)
 
