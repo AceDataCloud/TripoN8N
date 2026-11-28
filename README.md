@@ -8,7 +8,11 @@ In self-hosted n8n, open **Settings → Community nodes → Install**, enter `@a
 
 ## Credentials
 
-Enable the [Tripo 3D service](https://platform.acedata.cloud/documents/tripo) for your application. Create the **Tripo 3D API** credential and paste your token from [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications) into **API Token**. The credential test queries a placeholder task ID.
+Sign in to [Applications](https://platform.acedata.cloud/console/applications) and open **General Application**. Click the copy button to the right of **API KEY**.
+
+![Copy the API key from General Application](https://cdn.acedata.cloud/dvc3cg.jpg)
+
+Confirm the key can access [Tripo 3D](https://platform.acedata.cloud/documents/tripo). In n8n, paste the raw key into **API Token** in the **Tripo 3D API** credential. The credential test queries a placeholder task ID.
 
 ## Use the node
 
