@@ -1,6 +1,6 @@
 {
   "name": "@acedatacloud/n8n-nodes-tripo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate 3D assets, process and animate models, and retrieve Tripo tasks through Ace Data Cloud in n8n.",
   "license": "MIT",
   "homepage": "https://github.com/AceDataCloud/TripoN8N",
