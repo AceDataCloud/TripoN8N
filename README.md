@@ -8,9 +8,9 @@ In self-hosted n8n, open **Settings → Community nodes → Install**, enter `@a
 
 ## Credentials
 
-Sign in to [Applications](https://platform.acedata.cloud/console/applications) and open **General Application**. If it is missing, select **Initialize General Application**. Click the copy button marked **1** beside **API KEY**.
+Sign in to [Applications](https://platform.acedata.cloud/console/applications) and open **General Application**. If it is missing, select **Initialize General Application**. Click the copy button to the right of **API KEY**.
 
-![Copy the General Application API key with the button marked 1](https://raw.githubusercontent.com/AceDataCloud/NanoBananaDify/2522b2f57210597af2db866445319334a1677a23/_assets/tutorial/get-api-key-en.png)
+![Copy the API key from General Application](https://cdn.acedata.cloud/dvc3cg.jpg)
 
 Confirm the key can access [Tripo 3D](https://platform.acedata.cloud/documents/tripo). In n8n, paste the raw key into **API Token** in the **Tripo 3D by Ace Data Cloud API** credential. The credential test queries a placeholder task ID.
 
