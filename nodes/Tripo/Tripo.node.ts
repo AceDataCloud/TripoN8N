@@ -17,7 +17,7 @@ import metadata from "./Tripo.node.json";
 
 export class Tripo implements INodeType {
   description: INodeTypeDescription = {
-    displayName: "Tripo 3D by Ace Data Cloud",
+    displayName: "Tripo 3D",
     name: "tripo",
     icon: { light: "file:icon.png", dark: "file:icon.png" },
     group: ["transform"],
@@ -25,7 +25,7 @@ export class Tripo implements INodeType {
     subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
     description:
       "Generate 3D assets, process and animate models, and retrieve Tripo tasks through Ace Data Cloud",
-    defaults: { name: "Tripo 3D by Ace Data Cloud" },
+    defaults: { name: "Tripo 3D" },
     inputs: [NodeConnectionTypes.Main],
     outputs: [NodeConnectionTypes.Main],
     usableAsTool: true,
