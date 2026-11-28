@@ -7,7 +7,7 @@ import type {
 
 export class AceDataTripoApi implements ICredentialType {
   name = "aceDataTripoApi";
-  displayName = "Tripo 3D by Ace Data Cloud API";
+  displayName = "Tripo 3D API";
   documentationUrl = "https://github.com/AceDataCloud/TripoN8N#credentials";
   icon = "file:../nodes/Tripo/icon.png" as const;
   properties: INodeProperties[] = [

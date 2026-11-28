@@ -4,7 +4,7 @@ Create a 3D asset from text or reference views, convert a model, or rig and anim
 
 ## Installation
 
-In self-hosted n8n, open **Settings → Community nodes → Install**, enter `@acedatacloud/n8n-nodes-tripo`, then add **Tripo 3D by Ace Data Cloud** to a workflow.
+In self-hosted n8n, open **Settings → Community nodes → Install**, enter `@acedatacloud/n8n-nodes-tripo`, then add **Tripo 3D** to a workflow.
 
 ## Credentials
 
@@ -12,7 +12,7 @@ Sign in to [Applications](https://platform.acedata.cloud/console/applications) a
 
 ![Copy the API key from General Application](https://cdn.acedata.cloud/dvc3cg.jpg)
 
-Confirm the key can access [Tripo 3D](https://platform.acedata.cloud/documents/tripo). In n8n, paste the raw key into **API Token** in the **Tripo 3D by Ace Data Cloud API** credential. The credential test queries a placeholder task ID.
+Confirm the key can access [Tripo 3D](https://platform.acedata.cloud/documents/tripo). In n8n, paste the raw key into **API Token** in the **Tripo 3D API** credential. The credential test queries a placeholder task ID.
 
 ## Use the node
 
